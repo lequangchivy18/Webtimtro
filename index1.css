@@ -10,15 +10,22 @@ body{
 .header1{
     height: 60px;
     background: white;
+    /* padding: ; */
 }
 .header1 .img{
+    float: left;
     padding-left: 30px;
-    margin-top: 25px;
+    margin-top: 15px;
+    height: 40px;
+    /*width: 30%;*/
+    /*padding: 25px 10px*/
 }
 .header1 .search{
     float: right;
     /*margin_left:20px;*/
     line-height: 60px;
+    width: 60%;
+    /*padding: 10px;*/
 }
 .header1 .search a{
     color: #555555;
@@ -31,7 +38,7 @@ body{
 .header2{
     background: #1473E6;
     height: 40px;
-    clear: right;
+    clear: both;
 }
 .header2 a{
     color: white;
@@ -42,3 +49,16 @@ body{
 .header2 a:hover{
     color: black;
 }
+#search{
+    width: 230px;
+    height: 28px;
+    border-radius: 0.25rem ;
+    border: 1px solid;
+}
+#tim_kiem{
+    width: 70px;
+    height: 28px;
+    border-radius: 0.25rem ;
+    border: 1px solid;
+}
+
