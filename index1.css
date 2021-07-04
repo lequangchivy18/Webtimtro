@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Light";
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header1{
+    height: 60px;
+    background: white;
+}
+.header1 .img{
+    padding-left: 30px;
+    margin-top: 25px;
+}
+.header1 .search{
+    float: right;
+    /*margin_left:20px;*/
+    line-height: 60px;
+}
+.header1 .search a{
+    color: #555555;
+    text-decoration: none;
+    margin:10px;
+}
+.header1 .search a:hover{
+    color: black;
+}
+.header2{
+    background: #1473E6;
+    height: 40px;
+    clear: right;
+}
+.header2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    line-height: 40px;
+}
+.header2 a:hover{
+    color: black;
+}
