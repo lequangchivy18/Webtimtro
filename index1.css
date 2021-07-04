@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Roboto Light";
+    font-family: "Adobe Clean", serif;
 }
 body{
     width: 1200px;
@@ -60,5 +60,39 @@ body{
     height: 28px;
     border-radius: 0.25rem ;
     border: 1px solid;
+}
+.select_option{
+    border-radius: 5px;
+    background: #707070;
+    color: white;
+    width: 1180px;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.select_option select{
+    width:125px;
+    height: 25px;
+}
+.select_option button{
+    background: #FFA80F;
+    border-radius: 6px;
+    width: 65px;
+    height: 25px;
+    color: white;
+}
+.select_option .list_select li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.Slider h b{
+    font-size: 23px;
+    margin-left: 23px;
+}
+.Slider{
+    margin-top: 5px;
 }
 
